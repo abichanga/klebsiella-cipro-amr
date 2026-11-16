@@ -1,0 +1,9 @@
+features,n_features,model,accuracy,recall,f1,auc
+All features,54,Logistic regression,0.919,0.938,0.937,0.959
+All features,54,Random forest,0.927,0.95,0.943,0.959
+Target-site only,2,Logistic regression,0.673,0.504,0.665,0.742
+Target-site only,2,Random forest,0.673,0.504,0.665,0.742
+Target-site + plasmid,5,Logistic regression,0.864,0.858,0.891,0.9
+Target-site + plasmid,5,Random forest,0.864,0.858,0.891,0.898
+Without these features,49,Logistic regression,0.898,0.915,0.92,0.945
+Without these features,49,Random forest,0.901,0.921,0.923,0.947
