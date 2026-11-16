@@ -4,6 +4,7 @@ Which genes go with ciprofloxacin resistance in *Klebsiella pneumoniae*, and can
 
 Computing Bioinformatics group project, Strathmore University.
 
+
 ## Research question
 
 Which resistance determinants (acquired genes and gyrA/parC hits) are associated with ciprofloxacin resistance in *K. pneumoniae* genomes from BV-BRC, and can a classifier built on them predict resistant vs susceptible isolates better than a majority-class baseline?
@@ -66,7 +67,7 @@ The final table has 4,487 genomes (2,894 resistant, 1,593 susceptible) and 54 re
 
 ## How to run
 
-1. Click the Colab badge above, or upload the notebook to Colab.
+1. Click the klebsiella_notebook
 2. Run all cells in order (**Runtime, Run all**).
 3. The notebook downloads the data from the BV-BRC API, so no data files are needed. It also mounts Google Drive to save intermediate files. It writes to `/content/drive/MyDrive/klebsiella_project/data`, so create that folder or change `DATA_DIR` in the notebook.
 
